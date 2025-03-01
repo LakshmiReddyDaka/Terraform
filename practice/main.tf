@@ -9,7 +9,7 @@ provider "google" {
 }
 
 # Example: Create a simple GCP Storage Bucket
-resource "google_storage_bucket" "my-terraform-bucket-12345" {
+resource "google_storage_bucket" "terraformbucketmy12345" {
   name     = "my-terraform-bucket-12345"
   location = "US"
   force_destroy = true
