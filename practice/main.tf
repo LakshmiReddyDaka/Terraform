@@ -9,13 +9,13 @@ provider "google" {
 }
 
 # Example: Create a simple GCP Storage Bucket
-resource "google_storage_bucket" "my-terraform-bucket-12345" {
-  name     = "my-terraform-bucket-12345"
+resource "google_storage_bucket" "example171195" {
+  name     = "my-bucket-lakshmi-daka-171195"
   location = "US"
   force_destroy = true
 }
 
 # Output the bucket URL
 output "bucket_url" {
-  value = google_storage_bucket.my-terraform-bucket-12345.url
+  value = google_storage_bucket.example171195.url
 }
